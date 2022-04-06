@@ -1,1 +1,61 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"place":"garlic","color":"purple"},"geometry":{"type":"Point","coordinates":[-121.56676769256592,37.00412919390183]}},{"type":"Feature","properties":{"place":"taco","color":"red"},"geometry":{"type":"Point","coordinates":[-117.08198547363281,32.64110949213927]}},{"type":"Feature","properties":{"place":"snow","color":"white"},"geometry":{"type":"Point","coordinates":[-120.18390655517577,39.32951742518054]}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "folsom",
+          "color": "#FEF5E4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.16958618164062,
+            38.67264490154078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "san jose",
+          "color": "#FEE3C6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.89331054687499,
+            37.34395908944491
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "carlsbad",
+          "color": "#FAA2AE"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.344970703125,
+            33.16054697509142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "westwood",
+          "color": "#A7BEB6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.44497680664061,
+            34.0628990350628
+          ]
+        }
+      }
+    ]
+  }

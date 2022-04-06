@@ -17,10 +17,10 @@ function addMarker(lat,lng,title,message){
 }
 
 // use our marker functions
-addMarker(37,-122,'home','home land!')
-addMarker(32,-118,'work','where i work land!')
-addMarker(39,-119,'location 1','random location')
-addMarker(36,-120,'location 2','another random location')
+addMarker(32.63055,-117.09326,'Tacos El Gordo','yummy taco')
+addMarker(37.42216,-121.91751,'E-Noodle','yummy noodle')
+addMarker(34.04610,-118.25070,'Bohemian House of Espresso + Chai','yummy coffee')
+addMarker(38.55791,-121.47787,'Dim Sum House','yummy dim sum')
 
 fetch("map.geojson")
     .then(response => {

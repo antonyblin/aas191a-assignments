@@ -4,7 +4,7 @@
       {
         "type": "Feature",
         "properties": {
-          "place": "folsom",
+          "place": "Folsom, Sacramento",
           "color": "#ED553B"
         },
         "geometry": {
@@ -18,7 +18,7 @@
       {
         "type": "Feature",
         "properties": {
-          "place": "san jose",
+          "place": "San Jose, Santa Clara",
           "color": "#3CAEA3"
         },
         "geometry": {
@@ -32,7 +32,7 @@
       {
         "type": "Feature",
         "properties": {
-          "place": "carlsbad",
+          "place": "Carlsbad, San Diego",
           "color": "#F6D55C"
         },
         "geometry": {
@@ -46,7 +46,7 @@
       {
         "type": "Feature",
         "properties": {
-          "place": "westwood",
+          "place": "Westwood, Los Angeles",
           "color": "#173F5F"
         },
         "geometry": {

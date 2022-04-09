@@ -19,6 +19,7 @@ body{
     display: grid;
     grid-area: main_content;
     grid-template-areas: "mappanel" "content";
+    margin-top: 2em;
 }
 
 #header-img{

@@ -5,7 +5,7 @@
         "type": "Feature",
         "properties": {
           "place": "folsom",
-          "color": "#FEF5E4"
+          "color": "#ED553B"
         },
         "geometry": {
           "type": "Point",
@@ -19,7 +19,7 @@
         "type": "Feature",
         "properties": {
           "place": "san jose",
-          "color": "#FEE3C6"
+          "color": "#3CAEA3"
         },
         "geometry": {
           "type": "Point",
@@ -33,7 +33,7 @@
         "type": "Feature",
         "properties": {
           "place": "carlsbad",
-          "color": "#FAA2AE"
+          "color": "#F6D55C"
         },
         "geometry": {
           "type": "Point",
@@ -47,7 +47,7 @@
         "type": "Feature",
         "properties": {
           "place": "westwood",
-          "color": "#A7BEB6"
+          "color": "#173F5F"
         },
         "geometry": {
           "type": "Point",

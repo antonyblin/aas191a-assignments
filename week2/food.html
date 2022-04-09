@@ -4,8 +4,12 @@
         <title>My First Leaflet Map</title>
         <!-- hint: remember to change your page title! -->
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lexend+Deca:wght@500;600&display=swap" rel="stylesheet">
       
         <!-- Leaflet's css-->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -17,19 +21,34 @@
     <body>
         <header>
             <!-- hint: you can make a menu with other links here if you'd like -->
+            <a href="index.html"> 
+                <h1 id="logo">antony lin</h1>
+            </a>
+
+            <nav>
+                <ul id="main_menu">
+                    <li><a href="about.html">about me</a></li>
+                    <li><a href="food.html">food</a></li>
+                    <li><a href="contact.html">contact me</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div class="main">
           <div id="contents">
             <!-- hint: the majority of lab 1 assignment can go here --> 
+            <div class="main">
+                <!-- hint: the majority of my lab assignment is definitely going here  -->
+                    <div class="text">
+                        <div id="the_map"></div>
+                    </div>
+                </div>
           </div>
-    
-            <div id="the_map"></div>
 
         </div>
       
         <div id="footer">
-            Copyright(2022)
+            copyright © 2022 | made with a little bit of hate by antony lin
         </div>
       
         <script src="./js/init.js"></script>

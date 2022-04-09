@@ -31,9 +31,9 @@ body{
     margin-bottom: 1em;
 }
 
-#map{
+#the_map{
     height:80vh;
-    grid-area: mappanel;
+    grid-area: main_map;
 }
 
 #contents{

@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "Folsom, Sacramento",
+          "color": "#ED553B"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.16958618164062,
+            38.67264490154078
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "San Jose, Santa Clara",
+          "color": "#3CAEA3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.89331054687499,
+            37.34395908944491
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "Carlsbad, San Diego",
+          "color": "#F6D55C"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.344970703125,
+            33.16054697509142
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "place": "Westwood, Los Angeles",
+          "color": "#173F5F"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.44497680664061,
+            34.0628990350628
+          ]
+        }
+      }
+    ]
+  }

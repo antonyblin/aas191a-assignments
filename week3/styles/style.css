@@ -1,0 +1,165 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-auto-rows: minmax(5px, auto);
+    grid-template-areas: "header" "main_content" "footer";
+    height: 100vh;
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(#40b9a5 1px, transparent 1px), linear-gradient(to right, #40b9a5 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
+}
+
+.content{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto; 
+}
+
+.main{
+    display: grid;
+    grid-area: main_content;
+    grid-template-areas: "mappanel" "content";
+    margin-top: 2em;
+}
+
+#header-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	position: relative;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#the_map{
+    height:80vh;
+    grid-area: main_map;
+}
+
+#content{
+    grid-area: content;
+}
+
+.text{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 400;
+	color: #0d2745;
+}
+
+ol,ul{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 400;
+	color: #0d2745;
+}
+
+/* ///// HEADER ///// */
+
+header{
+    grid-area: header;
+    width: 100%;
+	height: 125px;
+	position: relative;
+}
+
+h1#logo
+{
+	top: -10px;
+	left: 3%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+	position: absolute;
+    color: black;
+}
+
+/* ///// NAV ///// */
+
+nav
+{
+	height: 150px;
+	width: 75%;
+	position: absolute;
+	top: 0;
+	right: 2%;
+	text-align: right;
+}
+
+nav ul#main_menu
+{
+    list-style-type: none;
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+    z-index: 400;
+}
+
+nav ul#main_menu li
+{
+	display: inline;
+}
+
+nav ul#main_menu li a
+{
+	padding: 14px 14px;
+	letter-spacing: 0px;
+	text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+	color: #0d2745;
+	font-size: 16px;
+	font-weight: 600;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+
+nav ul#main_menu li a:hover
+{
+	color: black;
+}
+
+nav ul#main_menu li a:after
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: #0d2745;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	height: 2px;
+}
+
+nav ul#main_menu li a:hover:after
+{
+	width: 100%;
+}
+
+/* ///// FOOTER ///// */
+
+#footer{
+    grid-area: footer;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}

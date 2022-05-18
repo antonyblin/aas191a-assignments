@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-rows: 50px auto auto;
+    grid-template-areas: "header" "main_content" "footer";
+    background-color: rgb(125, 161, 222);
+    gap: 10px;
+}
+
+header{
+    grid-area: header;
+    font-size: 2em;
+    justify-self: center;
+    align-self: center;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+.main{
+    grid-area: main_content;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "main_map content";
+    display: grid;
+}
+
+#contents{
+    grid-area: content;
+    display: grid;
+    grid-template-rows: 1fr 3fr; 
+    grid-template-areas: "buttonHome" "survey"
+}
+
+#the_map{
+    height:80vh;
+    grid-area: main_map;
+}
+
+#theSurvey{
+    grid-area: survey; /* (1)! */
+    background-color: white;
+}
+
+#placeForButtons{
+    grid-area: buttonHome; /* (2)! */
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
